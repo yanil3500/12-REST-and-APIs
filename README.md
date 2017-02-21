@@ -1,8 +1,10 @@
-![CF](https://i.imgur.com/7v5ASc8.png)  Lab 12: REST and APIs
-=======
+![CF](https://i.imgur.com/7v5ASc8.png)  
+# 12-REST-and-APIs
+Connect to the GitHub API and pull in some repositories!
+
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
-Now that we understand how applications can handle different URLs, we can write code that communicates with other applications. Let each partner try out their own user info to get the chance to see their repos with their token. For today, please create a `githubToken.js` file in the root of your app. Open this file, create a variable, and store your access token. Add the new file to your `.gitignore` in the terminal by running `echo githubToken.js >> .gitignore`
+Now that we understand how applications can handle different URLs, we can write code that communicates with other applications. Let each partner try out their own user info to get the chance to see their repos with their token. For today, please create a `githubToken.js` file in the same level of your app as `index.html`. Open this file, create a variable, and store your access token. You can add the new file to your `.gitignore` in the terminal by running `echo githubToken.js >> .gitignore` or just by entering it manually.
 
 ## TODOs - User Stories: MVP
  1. As a developer, I want to treat my GitHub repositories as a resource (with full MVC components), so that I can manage them within my blog.
