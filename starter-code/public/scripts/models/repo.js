@@ -11,7 +11,7 @@
       url: 'https://api.github.com/user/repos',
       method: 'GET',
       headers: {
-        Authorization: githubToken
+        Authorization: `token ${githubToken}`
       }
     }).then(data => {
       console.log(data);
