@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 
     <script id="article-template" type="text/x-handlebars-template">
@@ -28,7 +29,7 @@
     <!-- DONE: We have a new Handlebars template! Help fill in a few expressions: -->
     <script id="repo-template" type="text/x-handlebars-template">
       <li>
-        <a href="{{html_url}}" target="_blank"><h3>{{name}}</h3></a>
+        <a href="{{html_url}}" target="_blank"><h3 class="icon-github"> {{name}}</h3></a>
         <p>Description: {{description}}</p>
         <p>Language: {{language}}</p>
         <p>Created: {{created_at}}</p>
@@ -36,6 +37,8 @@
         {{#if watchers_count}}
           <p>{{watchers_count}} watching this repo</p>
         {{/if}}
+        <p>Clone from: <a href="{{clone_url}}" target="_blank">{{clone_url}}</a></p>
+        <p>Size: {{size}}KB</p>
       </li>
     </script>
   </head>
