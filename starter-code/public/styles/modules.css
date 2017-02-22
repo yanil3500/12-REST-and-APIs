@@ -34,6 +34,19 @@
   border-bottom: 1px solid #ccc;
 }
 
+#about li {
+  list-style: none;
+}
+
+#about h3 {
+  font-size: 1.75em;
+  color: navy;
+}
+
+#about p {
+  font-family: 'Lato', sans-serif;
+}
+
 #filters {
   padding: 0;
   list-style: none;
